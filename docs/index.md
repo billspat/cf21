@@ -38,9 +38,10 @@ The program runs from Fall 2021 to Spring 2022 semester.  Sessions are organized
 
 We will meet virtually according to the schedule below for 'project update' presentations and group discussions. If you have a scheduling conflict, please let us know as soon as possible. 
  
- - **February 4th : Presentation of Revised Project and current status**
- - **March 4th : TBD**
- - **April 8th : TBD**
+ **February 4th : Presentation of revised project plans and current status<br>
+ March 4th : TBD<br>
+ April 8th : TBD<br>
+ **
 
  - All sessions 2:00-4:00pm EST
  - Zoom links and password will be sent over email. 
