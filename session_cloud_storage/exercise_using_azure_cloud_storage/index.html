@@ -283,8 +283,44 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        Additional sessions TBD
+      <a href="../../session_moving_data/" class="md-nav__link">
+        4. Moving Data
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../session_bigdata/" class="md-nav__link">
+        5. Big Data and the cloud
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../session_datasystems/" class="md-nav__link">
+        6. Cloud Data Systems
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../session_serverless/" class="md-nav__link">
+        7. Serverless, Containers, and FaaS
       </a>
     </li>
   
@@ -306,6 +342,21 @@
     <li class="md-nav__item">
       <a href="../../references/" class="md-nav__link">
         References
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cloud_glossary/" class="md-nav__link">
+        Cloud Glossary
       </a>
     </li>
   
@@ -344,9 +395,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#introductions" class="md-nav__link">
-    Introductions
+  <a href="#azure-quickstart-tutorials" class="md-nav__link">
+    Azure Quickstart Tutorials
   </a>
+  
+    <nav class="md-nav" aria-label="Azure Quickstart Tutorials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#storage-account" class="md-nav__link">
+    Storage Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blob-storage" class="md-nav__link">
+    Blob Storage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-storage" class="md-nav__link">
+    File Storage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -365,9 +443,25 @@
                 
                 <h1 id="exercise-using-azure-cloud-storage">Exercise: Using Azure Cloud Storage</h1>
 <h2 id="pre-requisites">Pre-requisites</h2>
-<p>Please review materials for <a href="../session_cloud_storage">this session</a> to understand cloud storage and the different types that Azure offers </p>
-<h2 id="introductions">Introductions</h2>
-<p>You will create a few different types of cloud storage and transfer files into it using software provided by Azure.  </p>
+<ol>
+<li>Download the Storage Explorer</li>
+<li>Review Storage documentation for basic concepts.<br />
+Please review materials for <a href="../session_cloud_storage">this session</a> to understand cloud storage and the different types that Azure offers </li>
+<li>A valid subscription. </li>
+<li>A storage account is not always required for some tutorials, but if so, create a storage account with the first item.  </li>
+</ol>
+<h2 id="azure-quickstart-tutorials">Azure Quickstart Tutorials</h2>
+<h3 id="storage-account">Storage Account</h3>
+<p>We created a storage account in one of the first activities, and you may use that storage account for many of the other activities below.  However  here is the Azure documentation for doing so if you want to review or practice creating a new one: </p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal">Create a storage account</a></p>
+<p>*Note in the above there are options for "Portal", "PowerShell", "Azure CLI" and "Template" but the Portal version is what we covered so far. </p>
+<h3 id="blob-storage">Blob Storage</h3>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal">Azure Quickstart: Upload, download, and list blobs with the Azure portal</a></p>
+<p>The Azure Storage explorer is a desktop application for Mac and Windows, useful for occasional checking and working with cloud storage: </p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/quickstart-storage-explorer">Azure Quickstart: Use Azure Storage Explorer to create a blob</a></p>
+<h3 id="file-storage">File Storage</h3>
+<p>In the following exercise, you can use your existing storage account, and skip to the section "create-an-azure-file-share" but feel free to create an additional storage account if you want to experiment (the storage account itself does not )</p>
+<p><a href="https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-portal?tabs=azure-portal">Quickstart: Create and manage Azure file shares</a></p>
                 
               
               

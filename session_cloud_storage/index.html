@@ -327,15 +327,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#workshop-using-cloud-storage" class="md-nav__link">
-    Workshop : using Cloud storage
+  <a href="#meeting-september-24-200-330pm" class="md-nav__link">
+    Meeting September 24 2:00-3:30pm
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#optional-exercise" class="md-nav__link">
-    Optional Exercise
+  <a href="#optional-activity" class="md-nav__link">
+    Optional Activity:
   </a>
   
 </li>
@@ -353,8 +353,44 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Additional sessions TBD
+      <a href="../session_moving_data/" class="md-nav__link">
+        4. Moving Data
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../session_bigdata/" class="md-nav__link">
+        5. Big Data and the cloud
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../session_datasystems/" class="md-nav__link">
+        6. Cloud Data Systems
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../session_serverless/" class="md-nav__link">
+        7. Serverless, Containers, and FaaS
       </a>
     </li>
   
@@ -376,6 +412,21 @@
     <li class="md-nav__item">
       <a href="../references/" class="md-nav__link">
         References
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud_glossary/" class="md-nav__link">
+        Cloud Glossary
       </a>
     </li>
   
@@ -428,15 +479,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#workshop-using-cloud-storage" class="md-nav__link">
-    Workshop : using Cloud storage
+  <a href="#meeting-september-24-200-330pm" class="md-nav__link">
+    Meeting September 24 2:00-3:30pm
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#optional-exercise" class="md-nav__link">
-    Optional Exercise
+  <a href="#optional-activity" class="md-nav__link">
+    Optional Activity:
   </a>
   
 </li>
@@ -457,9 +508,9 @@
                 <h1 id="session-3-cloud-storage">Session 3: Cloud Storage</h1>
 <p><img alt="storage_units" src="../img/storage_units.jpg" /></p>
 <h2 id="introduction">Introduction</h2>
-<p>Central to using cloud for nearly all services is storing data.   Cloud storage is quite different from what most are used to related to saving a file to your disk or USB removable media or even our HPC.   During our <a href="../session_how_to_cloud">workshop on creating a VM</a> we didn't use cloud storage, we simply create a VM "virtual disk" that is attached to the VM just like your hard drive is attached to your own computer.   However there are disadvantats to this : 
-  1. the main OS disk is typically deleted when the VM is deleted, although yuo can create a 'durable' disk to share
-  1. the data on the main OS disk is tied to that Virtual Machine and hence that operating system, that is, it's typically unacceesbile from other cloud services 
+<p>Central to using cloud for nearly all services is storing data.   Cloud storage is quite different from what most are used to related to saving a file to your disk or USB removable media or even our HPC.   During our <a href="../session_how_to_cloud">workshop on creating a VM</a> we didn't use cloud storage, we simply create a VM "virtual disk" that is attached to the VM just like your hard drive is attached to your own computer.   However there are disadvantages to this : 
+  1. the main OS disk is typically deleted when the VM is deleted, although you can create a 'durable' disk to share
+  1. the data on the main OS disk is tied to that Virtual Machine and hence that operating system, that is, it's typically inaccessible from other cloud services 
   1. it is limited in size.  The largest of virtual disks are around 1 TB.  Azure Cloud storage accounts are limited to 5 TB and you may have multiple storage accounts. <br />
   1. You can only move data to/from a virtual or shared disk storage using a virtual machine
   1. Most importantly virtual disks very expensive compared to cloud storage </p>
@@ -467,45 +518,53 @@
 <h2 id="readings">Readings</h2>
 <ul>
 <li><a href="https://s3.us-east-2.amazonaws.com/a-book/storage.html">Storage as a Service</a> from "Cloud Computing for Science and Engineering"  </li>
-<li><a href="https://azure.microsoft.com/en-us/product-categories/storage/">Azure Storage Product Offerings</a></li>
+<li>Optional: this is long (27 minutes) but a good basic introduction to Azure storage: <br>
+    <a href="https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/">Azure Training: Explore Azure Storage services</a> ( free training from Microsoft Learn)</li>
+<li><a href="https://azure.microsoft.com/en-us/product-categories/storage/">Table of Azure Storage Product Offerings</a></li>
+<li>Azure Documentation: <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction">Introduction to the core Azure Storage services
+</a></li>
+<li>
+<p>Slides/Lecture: <a href="azure_cloud_storage_for_researchers.html">Azure Cloud Storage for Researchers</a> with links for details on each slide</p>
+</li>
+<li>
+<p>optional <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs">Understanding block blobs, append blobs, and page blobs</a></p>
+</li>
 </ul>
 <h2 id="activities">Activities</h2>
 <ul>
-<li>Download and install the <a href="https://azure.microsoft.com/en-us/features/storage-explorer/">Azure Cloud Storage Explorer</a>  See the <strong>"Download now"</strong> button at the top of that page.  You may review the content of the page     </li>
-<li>complete exercise <a href="exercise_using_azure_cloud_storage/">Using Azure Cloud Storage</a></li>
+<li>Download and install the <a href="https://azure.microsoft.com/en-us/features/storage-explorer/">Azure Cloud Storage Explorer</a>  See the <strong>"Download now"</strong> button at the top of that page.  You may review the content of the page</li>
+<li>complete exercises in <a href="exercise_using_azure_cloud_storage/">Using Azure Cloud Storage</a> to create and use storage</li>
+<li><a href="storage_pricing_exercise/">Azure Storage Pricing Exercise</a> </li>
 </ul>
-<h2 id="workshop-using-cloud-storage">Workshop : using Cloud storage</h2>
+<h2 id="meeting-september-24-200-330pm">Meeting September 24 2:00-3:30pm</h2>
 <ul>
-<li>
-<p>discussion </p>
-<ul>
-<li>what is cloud storage?  review of provided materials</li>
+<li>About Projects, Mahmoud Parvizi</li>
+<li>Discussion and Review of previous sessions: <ul>
+<li>Using the Portal</li>
+<li>Creating and Using Virtual Machines</li>
+</ul>
+</li>
+<li>What is cloud storage? <ul>
 <li>concept review: cloud storage vs VM disks</li>
-<li>discuss exercise : success</li>
+<li>discuss exercises to be worked on next week</li>
 </ul>
 </li>
-<li>
-<p>demonstration</p>
-<ul>
-<li>copy data from HPC to Virtual machine</li>
-<li>using Python with </li>
+<li>Review of Broad Cloud Concepts: <ul>
+<li>On-Demand, Compute, Storage, Identity Management</li>
 </ul>
 </li>
+<li>Discussion : future activities and needs</li>
 </ul>
-<h2 id="optional-exercise">Optional Exercise</h2>
-<ul>
-<li>
+<h2 id="optional-activity">Optional Activity:</h2>
+<p><strong>Python And Cloud Storage</strong></p>
 <p>For Intermediate Python users, and if you have time and interest, consider this tutorial from Azure:
    <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-python">Quickstart: Manage blobs with Python v12 SDK</a></p>
 <ul>
 <li>Requirements:</li>
-<li>use the blob storage account you created in the excercise above</li>
+<li>use the blob storage account you created in the exercise above</li>
 <li>familiarity with Azure portal </li>
-<li>Python installed on your cmputer (suggest python 3.6 minimal)</li>
+<li>Python installed on your computer (suggest python 3.6 minimal)</li>
 <li>familiarity with the terminal and command line</li>
-<li>We can only provide help/troubleshooting after the workshop session</li>
-</ul>
-</li>
 </ul>
                 
               
@@ -542,13 +601,13 @@
       
       
         
-        <a href=".." class="md-footer__link md-footer__link--next" aria-label="Next: Additional sessions TBD" rel="next">
+        <a href="../session_moving_data/" class="md-footer__link md-footer__link--next" aria-label="Next: 4. Moving Data" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Additional sessions TBD
+              4. Moving Data
             </div>
           </div>
           <div class="md-footer__button md-icon">
