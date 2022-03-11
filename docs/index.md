@@ -62,7 +62,13 @@ We encourage you, especially during Winter/spring, to [contact us](contact) at a
 
 #### Symposium and Project Presentations
 
-Participants will present projects in late April at a symposium for the Cloud Fellowship.  The exact date and time to be determined, and virtual vs in-person also to be determined.   
+The conclusion of the 2021-2022 fellowship is a symposium where participants will present their projects 
+
+**&nbsp;&nbsp;&nbsp;&nbsp;May 13 2022 1:00pm - 5:00pm Eastern Time**   
+
+The format (virtual, in-person, or hybrid) is to be determined. 
+
+   
 
 ## Textbook
 
