@@ -39,8 +39,8 @@ The program runs from Fall 2021 to Spring 2022 semester.  Sessions are organized
 We will meet virtually according to the schedule below for 'project update' presentations and group discussions. If you have a scheduling conflict, please let us know as soon as possible. 
  
  **February 4th : Presentation of revised project plans and current status<br>
- March 4th : TBD<br>
- April 8th : TBD<br>
+ March 4th : project status and discussion<br>
+ April 8th : project status and discussion<br>
  **
 
  - All sessions 2:00-4:00pm EST
@@ -60,15 +60,54 @@ April 1st and 15th**
  
 We encourage you, especially during Winter/spring, to [contact us](contact) at any time with any questions related to your projects, the fellowship, or cloud computing in general.  We will get back with you when we can and schedule a time for a virtual 1-1 meeting.  
 
+#### Project Submission
+
+**April 22nd: Submit your Symposium Talk Title and Abstract**
+
+Prior to 5:00pm on April 22nd, please post a MS Word document to the ‘Symposium Talk Titles and Abstracts’ folder under the ‘Files’ directory of our Cloud Computing Fellowship MS Teams ‘General’ channel which all participants have access to. The MS Word document filename should be `abstract_<lastname_firstname>.docx`
+ or "abstract_parvizi_mahmoud.docx" for example. The MS Word document must contain the title of your talk and an abstract i.e., a one paragraph summary of your cloud computing project. 
+
+**May 6th: Submit your Project Writeup**  
+
+Prior to 5:00pm on May 6th, please post a MS Word document to the ‘Project Writeup’ folder under the ‘Files’ directory of our CCF MS Teams ‘General’ channel (linked here). The MS Word document filename should be `writeup_<lastname_firstname>.docx`; "writeup_parvizi_mahmoud.docx"for example. The MS Word document should be 2-3 pages in length and contain the sections described below. 
+
+1. Project Summary (~1 page in length) 
+       - Describe the project and include the project’s aims 
+       - Describe the cloud resources you employed during the fellowship 
+       - Describe the extent of the progress made towards the project aims to date 
+
+ 2. Successes and Challenges of the Project (~0.5 page in length) 
+      - Describe any benefits derived from successfully employing specific cloud resources in your project 
+      - Described any challenges you faced, are facing, or will face in employing specific cloud resources in your project 
+
+ 3. Training/Discussion Session Feedback (~0.5 page in length) 
+    - Discuss the portions of the CCF training sessions (Fall Semester) and discussion sessions (Spring Semester) that you found most helpful in conducting your cloud-based research 
+    - Discuss the portions of the CCF training sessions (Fall Semester) and discussion sessions (Spring Semester) that you found least helpful in conducting your cloud-based research 
+    - Include any suggestions you may have for improving the training/discussion sessions  
+
+ 4. Lessons Learned (~0.5 page in length) 
+    - Discuss the most relevant ‘take-aways’ from your work in porting your research project to the cloud 
+    - Discuss how this experience will influence your approach to cloud-based projects in the future 
+
+
 #### Symposium and Project Presentations
 
-The conclusion of the 2021-2022 fellowship is a symposium where participants will present their projects 
+**May 13th, 2022 1:00pm to 5:00pm**, In-person, MSU Campus (location to be determined)
 
-**&nbsp;&nbsp;&nbsp;&nbsp;May 13 2022 1:00pm - 5:00pm Eastern Time**   
+The end-of year symposium is the culminating event where each fellow will deliver a conference style talk to a diverse audience of interested academic researchers, IT professionals, and university administrators on the outcomes of your cloud-based research project.  
 
-The format (virtual, in-person, or hybrid) is to be determined. 
+ - Limit your presentation to 8 minutes w/ ~5 additional minutes for questions 
+    - Include a brief description of the project ‘s aims 
+    - Include your justification for employing cloud resources in your work 
+    - Include a highlight of some of the specific cloud services you applied to your research project 
+    - Include a discussion of some of the success and challenges of the project 
+    - Include any outcomes and discussions of future work 
 
-   
+
+ - Prepare your slides for a formal In-Person Talk 
+    - Prepare your talk in advance and rehearse prior to the symposium (I’ll be requesting formal titles and abstracts from you in the coming weeks for the official program) 
+    - Ensure your slides are properly organized and the text style, size, and color are legible on a large projector screen in a large room. 
+
 
 ## Textbook
 
